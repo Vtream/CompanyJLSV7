@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CompanyJLSV7.Models.Formapago>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Efectivo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tarjeta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detalletarjeta.Nombretitular)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Efectivo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tarjeta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detalletarjeta.Nombretitular)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Numeropago }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Numeropago }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Numeropago })
+        </td>
+    </tr>
+}
+
+</table>

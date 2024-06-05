@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CompanyJLSV7.Models.Detalletarjeta>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombretitular)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fechavencimiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CVV)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombretitular)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fechavencimiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CVV)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Numerotarjeta }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Numerotarjeta }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Numerotarjeta })
+        </td>
+    </tr>
+}
+
+</table>

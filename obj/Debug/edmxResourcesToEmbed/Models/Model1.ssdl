@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyJLSAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bodega">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="Nombreproducto" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Fechadevencimiento" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombreproveedor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefonoproveedor" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cantidadproducto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DetalleFactura">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Codigoplato" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Detalletarjeta">
+    <Key>
+      <PropertyRef Name="Numerotarjeta" />
+    </Key>
+    <Property Name="Numerotarjeta" Type="int" Nullable="false" />
+    <Property Name="Nombretitular" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fechavencimiento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CVV" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Facturas">
+    <Key>
+      <PropertyRef Name="Facturas" />
+    </Key>
+    <Property Name="Facturas" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Numeropago" Type="int" Nullable="false" />
+    <Property Name="idProducto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Formapago">
+    <Key>
+      <PropertyRef Name="Numeropago" />
+    </Key>
+    <Property Name="Numeropago" Type="int" Nullable="false" />
+    <Property Name="Efectivo" Type="varchar" MaxLength="50" />
+    <Property Name="Tarjeta" Type="varchar" MaxLength="50" />
+    <Property Name="Numerotarjeta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tipodocumento" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tiporol" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="idRol" Type="int" Nullable="false" />
+    <Property Name="Facturas" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Plato">
+    <Key>
+      <PropertyRef Name="Codigoplato" />
+    </Key>
+    <Property Name="Codigoplato" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ingredientes" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Valor" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="int" Nullable="false" />
+    <Property Name="Nombrerol" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_DetalleFactura_Plato">
+    <End Role="Plato" Type="Self.Plato" Multiplicity="1" />
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Plato">
+        <PropertyRef Name="Codigoplato" />
+      </Principal>
+      <Dependent Role="DetalleFactura">
+        <PropertyRef Name="Codigoplato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_Bodega">
+    <End Role="Bodega" Type="Self.Bodega" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bodega">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_DetalleFactura">
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DetalleFactura">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="Codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_Formapago">
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formapago">
+        <PropertyRef Name="Numeropago" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="Numeropago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Formapago_Detalletarjeta">
+    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="1" />
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalletarjeta">
+        <PropertyRef Name="Numerotarjeta" />
+      </Principal>
+      <Dependent Role="Formapago">
+        <PropertyRef Name="Numerotarjeta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persona_Facturas">
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Facturas">
+        <PropertyRef Name="Facturas" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="Facturas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persona_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyJLSAModelStoreContainer">
+    <EntitySet Name="Bodega" EntityType="Self.Bodega" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetalleFactura" EntityType="Self.DetalleFactura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detalletarjeta" EntityType="Self.Detalletarjeta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Facturas" EntityType="Self.Facturas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Formapago" EntityType="Self.Formapago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Plato" EntityType="Self.Plato" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DetalleFactura_Plato" Association="Self.FK_DetalleFactura_Plato">
+      <End Role="Plato" EntitySet="Plato" />
+      <End Role="DetalleFactura" EntitySet="DetalleFactura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_Bodega" Association="Self.FK_Facturas_Bodega">
+      <End Role="Bodega" EntitySet="Bodega" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_DetalleFactura" Association="Self.FK_Facturas_DetalleFactura">
+      <End Role="DetalleFactura" EntitySet="DetalleFactura" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_Formapago" Association="Self.FK_Facturas_Formapago">
+      <End Role="Formapago" EntitySet="Formapago" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Formapago_Detalletarjeta" Association="Self.FK_Formapago_Detalletarjeta">
+      <End Role="Detalletarjeta" EntitySet="Detalletarjeta" />
+      <End Role="Formapago" EntitySet="Formapago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persona_Facturas" Association="Self.FK_Persona_Facturas">
+      <End Role="Facturas" EntitySet="Facturas" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persona_Rol" Association="Self.FK_Persona_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

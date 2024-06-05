@@ -1,0 +1,64 @@
+﻿@model CompanyJLSV7.Models.Bodega
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Bodega</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombreproducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombreproducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fechadevencimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fechadevencimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombreproveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombreproveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefonoproveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefonoproveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidadproducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidadproducto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

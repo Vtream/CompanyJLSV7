@@ -1,0 +1,58 @@
+﻿@model CompanyJLSV7.Models.Bodega
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Bodega</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombreproducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombreproducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fechadevencimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fechadevencimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombreproveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombreproveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefonoproveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefonoproveedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidadproducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidadproducto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idProducto }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

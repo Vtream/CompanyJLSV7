@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyJLSAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bodega">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="Nombreproducto" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fechadevencimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Nombreproveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefonoproveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cantidadproducto" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_Bodega" FromRole="Bodega" ToRole="Facturas" />
+  </EntityType>
+  <EntityType Name="DetalleFactura">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <Property Name="Valor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Codigoplato" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Plato" Relationship="Self.FK_DetalleFactura_Plato" FromRole="DetalleFactura" ToRole="Plato" />
+    <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_DetalleFactura" FromRole="DetalleFactura" ToRole="Facturas" />
+  </EntityType>
+  <EntityType Name="Detalletarjeta">
+    <Key>
+      <PropertyRef Name="Numerotarjeta" />
+    </Key>
+    <Property Name="Numerotarjeta" Type="Int32" Nullable="false" />
+    <Property Name="Nombretitular" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fechavencimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CVV" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Formapago" Relationship="Self.FK_Formapago_Detalletarjeta" FromRole="Detalletarjeta" ToRole="Formapago" />
+  </EntityType>
+  <EntityType Name="Facturas">
+    <Key>
+      <PropertyRef Name="Facturas1" />
+    </Key>
+    <Property Name="Facturas1" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Numeropago" Type="Int32" Nullable="false" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Bodega" Relationship="Self.FK_Facturas_Bodega" FromRole="Facturas" ToRole="Bodega" />
+    <NavigationProperty Name="DetalleFactura" Relationship="Self.FK_Facturas_DetalleFactura" FromRole="Facturas" ToRole="DetalleFactura" />
+    <NavigationProperty Name="Formapago" Relationship="Self.FK_Facturas_Formapago" FromRole="Facturas" ToRole="Formapago" />
+    <NavigationProperty Name="Persona" Relationship="Self.FK_Persona_Facturas" FromRole="Facturas" ToRole="Persona" />
+  </EntityType>
+  <EntityType Name="Formapago">
+    <Key>
+      <PropertyRef Name="Numeropago" />
+    </Key>
+    <Property Name="Numeropago" Type="Int32" Nullable="false" />
+    <Property Name="Efectivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tarjeta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Numerotarjeta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Detalletarjeta" Relationship="Self.FK_Formapago_Detalletarjeta" FromRole="Formapago" ToRole="Detalletarjeta" />
+    <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_Formapago" FromRole="Formapago" ToRole="Facturas" />
+  </EntityType>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tipodocumento" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tiporol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idRol" Type="Int32" Nullable="false" />
+    <Property Name="Facturas" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Facturas1" Relationship="Self.FK_Persona_Facturas" FromRole="Persona" ToRole="Facturas" />
+    <NavigationProperty Name="Rol" Relationship="Self.FK_Persona_Rol" FromRole="Persona" ToRole="Rol" />
+  </EntityType>
+  <EntityType Name="Plato">
+    <Key>
+      <PropertyRef Name="Codigoplato" />
+    </Key>
+    <Property Name="Codigoplato" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Ingredientes" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Valor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="DetalleFactura" Relationship="Self.FK_DetalleFactura_Plato" FromRole="Plato" ToRole="DetalleFactura" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="Int32" Nullable="false" />
+    <Property Name="Nombrerol" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Persona" Relationship="Self.FK_Persona_Rol" FromRole="Rol" ToRole="Persona" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Facturas_Bodega">
+    <End Role="Bodega" Type="Self.Bodega" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bodega">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleFactura_Plato">
+    <End Role="Plato" Type="Self.Plato" Multiplicity="1" />
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Plato">
+        <PropertyRef Name="Codigoplato" />
+      </Principal>
+      <Dependent Role="DetalleFactura">
+        <PropertyRef Name="Codigoplato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_DetalleFactura">
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DetalleFactura">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="Codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Formapago_Detalletarjeta">
+    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="1" />
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalletarjeta">
+        <PropertyRef Name="Numerotarjeta" />
+      </Principal>
+      <Dependent Role="Formapago">
+        <PropertyRef Name="Numerotarjeta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_Formapago">
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formapago">
+        <PropertyRef Name="Numeropago" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="Numeropago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persona_Facturas">
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Facturas">
+        <PropertyRef Name="Facturas1" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="Facturas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persona_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyJLSAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bodega" EntityType="Self.Bodega" />
+    <EntitySet Name="DetalleFactura" EntityType="Self.DetalleFactura" />
+    <EntitySet Name="Detalletarjeta" EntityType="Self.Detalletarjeta" />
+    <EntitySet Name="Facturas" EntityType="Self.Facturas" />
+    <EntitySet Name="Formapago" EntityType="Self.Formapago" />
+    <EntitySet Name="Persona" EntityType="Self.Persona" />
+    <EntitySet Name="Plato" EntityType="Self.Plato" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Facturas_Bodega" Association="Self.FK_Facturas_Bodega">
+      <End Role="Bodega" EntitySet="Bodega" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleFactura_Plato" Association="Self.FK_DetalleFactura_Plato">
+      <End Role="Plato" EntitySet="Plato" />
+      <End Role="DetalleFactura" EntitySet="DetalleFactura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_DetalleFactura" Association="Self.FK_Facturas_DetalleFactura">
+      <End Role="DetalleFactura" EntitySet="DetalleFactura" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Formapago_Detalletarjeta" Association="Self.FK_Formapago_Detalletarjeta">
+      <End Role="Detalletarjeta" EntitySet="Detalletarjeta" />
+      <End Role="Formapago" EntitySet="Formapago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_Formapago" Association="Self.FK_Facturas_Formapago">
+      <End Role="Formapago" EntitySet="Formapago" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persona_Facturas" Association="Self.FK_Persona_Facturas">
+      <End Role="Facturas" EntitySet="Facturas" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persona_Rol" Association="Self.FK_Persona_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

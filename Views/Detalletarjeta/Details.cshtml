@@ -1,0 +1,42 @@
+﻿@model CompanyJLSV7.Models.Detalletarjeta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Detalletarjeta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombretitular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombretitular)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fechavencimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fechavencimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CVV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CVV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Numerotarjeta }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

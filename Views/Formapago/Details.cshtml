@@ -1,0 +1,42 @@
+﻿@model CompanyJLSV7.Models.Formapago
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Formapago</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Efectivo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Efectivo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tarjeta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tarjeta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Detalletarjeta.Nombretitular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Detalletarjeta.Nombretitular)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Numeropago }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

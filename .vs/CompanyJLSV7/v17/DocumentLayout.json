@@ -1,12 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\RESTAURANT\\CompanyJLSV7\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\aprendiz\\desktop\\companyjlsv7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-05T21:00:06.29Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

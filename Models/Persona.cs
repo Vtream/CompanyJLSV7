@@ -22,8 +22,8 @@ namespace CompanyJLSV7.Models
         public string Telefono { get; set; }
         public string Direccion { get; set; }
         public string Tiporol { get; set; }
-        public int idRol { get; set; }
-        public int Facturas { get; set; }
+        public Nullable<int> idRol { get; set; }
+        public Nullable<int> Facturas { get; set; }
     
         public virtual Facturas Facturas1 { get; set; }
         public virtual Rol Rol { get; set; }

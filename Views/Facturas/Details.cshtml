@@ -1,13 +1,13 @@
 ﻿@model CompanyJLSV7.Models.Facturas
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalles";
 }
 
-<h2>Details</h2>
+<h2>Detalles</h2>
 
 <div>
-    <h4>Facturas</h4>
+    
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -18,33 +18,10 @@
             @Html.DisplayFor(model => model.Fecha)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Bodega.Nombreproducto)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Bodega.Nombreproducto)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DetalleFactura.Valor)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DetalleFactura.Valor)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Formapago.Efectivo)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Formapago.Efectivo)
-        </dd>
 
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Facturas1 }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Facturas1 }) |
+    @Html.ActionLink("Volver a la lista", "Index")
 </p>

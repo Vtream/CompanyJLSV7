@@ -1,28 +1,21 @@
 ﻿@model IEnumerable<CompanyJLSV7.Models.Facturas>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Facturas";
 }
 
-<h2>Index</h2>
+<h2>Facturas</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Agregar Factura", "Create")
 </p>
 <table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Fecha)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Bodega.Nombreproducto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DetalleFactura.Valor)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Formapago.Efectivo)
-        </th>
+
+
         <th></th>
     </tr>
 
@@ -31,19 +24,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.Fecha)
         </td>
+
+
         <td>
-            @Html.DisplayFor(modelItem => item.Bodega.Nombreproducto)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DetalleFactura.Valor)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Formapago.Efectivo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Facturas1 }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Facturas1 }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Facturas1 })
+            @Html.ActionLink("Editar", "Edit", new { id=item.Facturas1 }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.Facturas1 }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.Facturas1 })
         </td>
     </tr>
 }

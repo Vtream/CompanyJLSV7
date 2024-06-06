@@ -1,13 +1,14 @@
 ﻿@model CompanyJLSV7.Models.DetalleFactura
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Eliminar Factura";
 }
 
-<h2>Details</h2>
+<h2>Eliminar factura</h2>
 
+<h3 style="color: #ff0000">¿Está seguro de eliminar esta factura? (Esta accion es irreversible)</h3>
 <div>
-    <h4>DetalleFactura</h4>
+
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -35,8 +36,13 @@
         </dd>
 
     </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Codigo }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

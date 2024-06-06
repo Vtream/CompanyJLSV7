@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<CompanyJLSV7.Models.Formapago>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Forma de pago";
 }
 
-<h2>Index</h2>
+<h2>Forma de pago</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -17,10 +17,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Tarjeta)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Detalletarjeta.Nombretitular)
-        </th>
-        <th></th>
+
     </tr>
 
 @foreach (var item in Model) {
@@ -31,13 +28,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.Tarjeta)
         </td>
+       
         <td>
-            @Html.DisplayFor(modelItem => item.Detalletarjeta.Nombretitular)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Numeropago }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Numeropago }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Numeropago })
+            @Html.ActionLink("Editar", "Edit", new { id=item.Numeropago }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.Numeropago }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.Numeropago })
         </td>
     </tr>
 }

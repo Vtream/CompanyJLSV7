@@ -172,7 +172,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BodegaController.cs" />
-    <Compile Include="Controllers\DetalleFacturaController.cs" />
+    <Compile Include="Controllers\DetalleFacturasController.cs" />
     <Compile Include="Controllers\DetalletarjetaController.cs" />
     <Compile Include="Controllers\FacturasController.cs" />
     <Compile Include="Controllers\FormapagoController.cs" />
@@ -335,11 +335,6 @@
     <Content Include="Views\Facturas\Details.cshtml" />
     <Content Include="Views\Facturas\Edit.cshtml" />
     <Content Include="Views\Facturas\Index.cshtml" />
-    <Content Include="Views\DetalleFactura\Create.cshtml" />
-    <Content Include="Views\DetalleFactura\Delete.cshtml" />
-    <Content Include="Views\DetalleFactura\Details.cshtml" />
-    <Content Include="Views\DetalleFactura\Edit.cshtml" />
-    <Content Include="Views\DetalleFactura\Index.cshtml" />
     <Content Include="Views\Plato\Create.cshtml" />
     <Content Include="Views\Plato\Delete.cshtml" />
     <Content Include="Views\Plato\Details.cshtml" />
@@ -360,6 +355,12 @@
     <Content Include="Views\Detalletarjeta\Details.cshtml" />
     <Content Include="Views\Detalletarjeta\Edit.cshtml" />
     <Content Include="Views\Detalletarjeta\Index.cshtml" />
+    <Content Include="Views\DetalleFacturas\Create.cshtml" />
+    <Content Include="Views\DetalleFacturas\Delete.cshtml" />
+    <Content Include="Views\DetalleFacturas\Details.cshtml" />
+    <Content Include="Views\DetalleFacturas\Edit.cshtml" />
+    <Content Include="Views\DetalleFacturas\Index.cshtml" />
+    <Content Include="Views\DetalleFacturas\DetalleFactura.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -18,7 +18,7 @@
     <Property Name="Codigo" Type="int" Nullable="false" />
     <Property Name="Cantidad" Type="int" Nullable="false" />
     <Property Name="Valor" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="Codigoplato" Type="int" Nullable="false" />
+    <Property Name="Codigoplato" Type="int" />
   </EntityType>
   <EntityType Name="Detalletarjeta">
     <Key>
@@ -35,9 +35,9 @@
     </Key>
     <Property Name="Facturas" Type="int" Nullable="false" />
     <Property Name="Fecha" Type="date" Nullable="false" />
-    <Property Name="Codigo" Type="int" Nullable="false" />
-    <Property Name="Numeropago" Type="int" Nullable="false" />
-    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="Codigo" Type="int" />
+    <Property Name="Numeropago" Type="int" />
+    <Property Name="idProducto" Type="int" />
   </EntityType>
   <EntityType Name="Formapago">
     <Key>
@@ -46,7 +46,7 @@
     <Property Name="Numeropago" Type="int" Nullable="false" />
     <Property Name="Efectivo" Type="varchar" MaxLength="50" />
     <Property Name="Tarjeta" Type="varchar" MaxLength="50" />
-    <Property Name="Numerotarjeta" Type="int" Nullable="false" />
+    <Property Name="Numerotarjeta" Type="int" />
   </EntityType>
   <EntityType Name="Persona">
     <Key>
@@ -60,8 +60,8 @@
     <Property Name="Telefono" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
     <Property Name="Tiporol" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="idRol" Type="int" Nullable="false" />
-    <Property Name="Facturas" Type="int" Nullable="false" />
+    <Property Name="idRol" Type="int" />
+    <Property Name="Facturas" Type="int" />
   </EntityType>
   <EntityType Name="Plato">
     <Key>
@@ -91,7 +91,7 @@
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
   <Association Name="FK_DetalleFactura_Plato">
-    <End Role="Plato" Type="Self.Plato" Multiplicity="1" />
+    <End Role="Plato" Type="Self.Plato" Multiplicity="0..1" />
     <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Plato">
@@ -103,7 +103,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Facturas_Bodega">
-    <End Role="Bodega" Type="Self.Bodega" Multiplicity="1" />
+    <End Role="Bodega" Type="Self.Bodega" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Bodega">
@@ -115,7 +115,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Facturas_DetalleFactura">
-    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="1" />
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="DetalleFactura">
@@ -127,7 +127,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Facturas_Formapago">
-    <End Role="Formapago" Type="Self.Formapago" Multiplicity="1" />
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Formapago">
@@ -139,7 +139,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Formapago_Detalletarjeta">
-    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="1" />
+    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="0..1" />
     <End Role="Formapago" Type="Self.Formapago" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Detalletarjeta">
@@ -151,7 +151,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Persona_Facturas">
-    <End Role="Facturas" Type="Self.Facturas" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="0..1" />
     <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Facturas">
@@ -163,7 +163,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Persona_Rol">
-    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Rol" Type="Self.Rol" Multiplicity="0..1" />
     <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Rol">

@@ -1,14 +1,14 @@
 ﻿@model CompanyJLSV7.Models.Detalletarjeta
 
 @{
-    ViewBag.Title = "Delete";
+    ViewBag.Title = "Eliminar";
 }
 
-<h2>Delete</h2>
+<h2>Eliminar tarjeta</h2>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3 style="color: #ff0000">¿Está seguro de eliminar esta tarjeta? (Esta accion es irreversible)</h3>
 <div>
-    <h4>Detalletarjeta</h4>
+    
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -41,8 +41,8 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
         </div>
     }
 </div>

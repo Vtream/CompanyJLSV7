@@ -23,7 +23,7 @@ namespace CompanyJLSV7.Models
         public int Codigo { get; set; }
         public int Cantidad { get; set; }
         public string Valor { get; set; }
-        public int Codigoplato { get; set; }
+        public Nullable<int> Codigoplato { get; set; }
     
         public virtual Plato Plato { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

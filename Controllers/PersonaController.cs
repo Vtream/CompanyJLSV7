@@ -49,12 +49,12 @@ namespace CompanyJLSV7.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "idPersona,Nombre,Apellido,Tipodocumento,Correo,Telefono,Direccion,Tiporol,idRol,Facturas")] Persona persona)
+        public ActionResult Create([Bind(Include = "idPersona,Nombre,Apellido,Tipodocumento,Correo,Telefono,Direccion,Tiporol")] Persona persona)
         {
             if (ModelState.IsValid)
             {
                 db.Persona.Add(persona);
-                db.SaveChanges();
+                    db.SaveChanges();
                 return RedirectToAction("Index");
             }
 

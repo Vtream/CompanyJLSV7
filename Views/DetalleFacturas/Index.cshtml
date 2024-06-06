@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<CompanyJLSV7.Models.DetalleFactura>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Detalle Factura";
 }
 
-<h2>Index</h2>
+<h2>Detalle Factura</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Crear nueva factura", "Create")
 </p>
 <table class="table">
     <tr>
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.Plato.Nombre)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Codigo }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Codigo }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Codigo })
+            @Html.ActionLink("Editar", "Edit", new { id=item.Codigo }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.Codigo }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.Codigo })
         </td>
     </tr>
 }

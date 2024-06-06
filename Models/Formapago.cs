@@ -23,7 +23,7 @@ namespace CompanyJLSV7.Models
         public int Numeropago { get; set; }
         public string Efectivo { get; set; }
         public string Tarjeta { get; set; }
-        public int Numerotarjeta { get; set; }
+        public Nullable<int> Numerotarjeta { get; set; }
     
         public virtual Detalletarjeta Detalletarjeta { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

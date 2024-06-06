@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\",
+  "WorkspaceRootPath": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\aprendiz\\desktop\\companyjlsv7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:48:52.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Delete.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:48:13.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:47:48.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:47:12.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "Models\\Model1.edmx",
-              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJLSV7\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-06-05T21:00:06.29Z",
-              "EditorCaption": " [Diagram1]"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:46:42.307Z",
+              "EditorCaption": ""
             }
           ]
         }

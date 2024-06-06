@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<CompanyJLSV7.Models.Rol>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Rol";
 }
 
-<h2>Index</h2>
+<h2>Rol</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Crear Rol", "Create")
 </p>
 <table class="table">
     <tr>
@@ -29,9 +29,9 @@
             @Html.DisplayFor(modelItem => item.Descripcion)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.idRol }) |
-            @Html.ActionLink("Details", "Details", new { id=item.idRol }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.idRol })
+            @Html.ActionLink("Editar", "Edit", new { id=item.idRol }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.idRol }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.idRol })
         </td>
     </tr>
 }

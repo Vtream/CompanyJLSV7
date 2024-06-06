@@ -10,18 +10,18 @@ using CompanyJLSV7.Models;
 
 namespace CompanyJLSV7.Controllers
 {
-    public class DetalleFacturaController : Controller
+    public class DetalleFacturasController : Controller
     {
         private CompanyJLSAEntities db = new CompanyJLSAEntities();
 
-        // GET: DetalleFactura
+        // GET: DetalleFacturas
         public ActionResult Index()
         {
             var detalleFactura = db.DetalleFactura.Include(d => d.Plato);
             return View(detalleFactura.ToList());
         }
 
-        // GET: DetalleFactura/Details/5
+        // GET: DetalleFacturas/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,14 +36,14 @@ namespace CompanyJLSV7.Controllers
             return View(detalleFactura);
         }
 
-        // GET: DetalleFactura/Create
+        // GET: DetalleFacturas/Create
         public ActionResult Create()
         {
             ViewBag.Codigoplato = new SelectList(db.Plato, "Codigoplato", "Nombre");
             return View();
         }
 
-        // POST: DetalleFactura/Create
+        // POST: DetalleFacturas/Create
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -61,7 +61,7 @@ namespace CompanyJLSV7.Controllers
             return View(detalleFactura);
         }
 
-        // GET: DetalleFactura/Edit/5
+        // GET: DetalleFacturas/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -77,7 +77,7 @@ namespace CompanyJLSV7.Controllers
             return View(detalleFactura);
         }
 
-        // POST: DetalleFactura/Edit/5
+        // POST: DetalleFacturas/Edit/5
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -94,7 +94,7 @@ namespace CompanyJLSV7.Controllers
             return View(detalleFactura);
         }
 
-        // GET: DetalleFactura/Delete/5
+        // GET: DetalleFacturas/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -109,7 +109,7 @@ namespace CompanyJLSV7.Controllers
             return View(detalleFactura);
         }
 
-        // POST: DetalleFactura/Delete/5
+        // POST: DetalleFacturas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

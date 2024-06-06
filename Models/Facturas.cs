@@ -22,9 +22,9 @@ namespace CompanyJLSV7.Models
     
         public int Facturas1 { get; set; }
         public System.DateTime Fecha { get; set; }
-        public int Codigo { get; set; }
-        public int Numeropago { get; set; }
-        public int idProducto { get; set; }
+        public Nullable<int> Codigo { get; set; }
+        public Nullable<int> Numeropago { get; set; }
+        public Nullable<int> idProducto { get; set; }
     
         public virtual Bodega Bodega { get; set; }
         public virtual DetalleFactura DetalleFactura { get; set; }

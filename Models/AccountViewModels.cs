@@ -66,22 +66,22 @@ namespace CompanyJLSV7.Models
     public class RegisterViewModel
     {
         [Required]
-        [StringLength(100, ErrorMessage = "El numero de caracteres debe ser de 10 numeros maximo", MinimumLength = 10)]
+        [StringLength(100, ErrorMessage = "El numero de caracteres debe ser de 10 numeros maximo")]
         [Display(Name = "Tipo de Documento")]
         public string TipoDocumento { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "El numero de caracteres debe ser de 10 numeros maximo", MinimumLength = 10)]
+        [StringLength(100, ErrorMessage = "El numero de caracteres debe ser de 10 numeros maximo")]
         [Display(Name = "Numero de Identificacion")]
         public string idPersona { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Este campo es obligatorio", MinimumLength = 10)]
+        [StringLength(100, ErrorMessage = "Este campo es obligatorio")]
         [Display(Name = "Nombres")]
         public string Nombre { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Este campo es obligatorio", MinimumLength = 10)]
+        [StringLength(100, ErrorMessage = "Este campo es obligatorio") ]
         [Display(Name = "Apellidos")]
         public string Apellido{ get; set; }
 

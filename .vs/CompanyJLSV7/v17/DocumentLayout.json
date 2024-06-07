@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rol\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rol\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rol\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rol\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rol\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Views\\Rol\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:48:52.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:48:52.821Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Views\\Rol\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:48:13.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:48:13.906Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Views\\Rol\\Details.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:47:48.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:47:48.506Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "Views\\Rol\\Edit.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:47:12.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:47:12.316Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "Views\\Rol\\Index.cshtml",
               "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml",
               "RelativeToolTip": "Views\\Rol\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-06T21:46:42.307Z",
               "EditorCaption": ""

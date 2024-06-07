@@ -13,10 +13,10 @@ namespace CompanyJLSV7.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CompanyJLSAEntities : DbContext
+    public partial class CompanyJLSAEntities7 : DbContext
     {
-        public CompanyJLSAEntities()
-            : base("name=CompanyJLSAEntities")
+        public CompanyJLSAEntities7()
+            : base("name=CompanyJLSAEntities7")
         {
         }
     

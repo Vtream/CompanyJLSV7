@@ -9,8 +9,8 @@
 <p>
     @Html.ActionLink("Agregar Factura", "Create")
 </p>
-<table class="table">
-    <tr>
+<table style="font-family:'Times New Roman'; font-size:medium" class="table">
+    <tr style=" background-color: #0c0d3b; color: #ffffff; border: white solid 5px" class="header-table;  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000">
         <th>
             @Html.DisplayNameFor(model => model.Fecha)
         </th>
@@ -19,19 +19,23 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Fecha)
-        </td>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
 
 
-        <td>
-            @Html.ActionLink("Editar", "Edit", new { id=item.Facturas1 }) |
-            @Html.ActionLink("Detalles", "Details", new { id=item.Facturas1 }) |
-            @Html.ActionLink("Eliminar", "Delete", new { id=item.Facturas1 })
-        </td>
-    </tr>
-}
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Facturas1 }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.Facturas1 }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.Facturas1 })
+            </td>
+        </tr>
+    }
 
 </table>
+<div id="imagenCompany" style="text-align:center">
+    <img src="~/Imagenes/companyiamn.jpg" ; width="400" height="400" />
+</div>

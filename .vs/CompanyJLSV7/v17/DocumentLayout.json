@@ -1,25 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\",
+  "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\goril\\documents\\proyecto\\companyjlsv7\\views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\aprendiz\\desktop\\companyjslv7\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\detallefacturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\detallefacturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\detalletarjeta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\detalletarjeta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\formapago\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\formapago\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\plato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\plato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\formapago\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\formapago\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\platocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\platocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\formapagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\formapagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\detalletarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\detalletarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\detallefacturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\detallefacturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:Views\\Rol\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:Views\\Rol\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:Views\\Rol\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:Views\\Rol\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,15 +114,279 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T19:43:51.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Facturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Facturas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Facturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Facturas\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:32:05.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Detalletarjeta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Detalletarjeta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Detalletarjeta\\Index.cshtml",
+              "RelativeToolTip": "Views\\Detalletarjeta\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:32:13.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Plato\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Plato\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Plato\\Index.cshtml",
+              "RelativeToolTip": "Views\\Plato\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:31:30.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\DetalleFacturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DetalleFacturas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\DetalleFacturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\DetalleFacturas\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:32:18.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Bodega\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bodega\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Bodega\\Index.cshtml",
+              "RelativeToolTip": "Views\\Bodega\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:32:25.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T19:29:06.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rol\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Index.cshtml",
+              "RelativeToolTip": "Views\\Rol\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:46:42.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Formapago\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Index.cshtml",
+              "RelativeToolTip": "Views\\Formapago\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:31:57.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T19:38:41.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Formapago\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Formapago\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:31:57.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Controllers\\PersonaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:54.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlatoController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PlatoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlatoController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PlatoController.cs",
+              "RelativeToolTip": "Controllers\\PlatoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:36:00.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\RolController.cs",
+              "RelativeToolTip": "Controllers\\RolController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:36:04.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormapagoController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FormapagoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormapagoController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FormapagoController.cs",
+              "RelativeToolTip": "Controllers\\FormapagoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:39.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "Controllers\\FacturasController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAvwA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:36.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DetalletarjetaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalletarjetaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DetalletarjetaController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalletarjetaController.cs",
+              "RelativeToolTip": "Controllers\\DetalletarjetaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:32.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetalleFacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalleFacturasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DetalleFacturasController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalleFacturasController.cs",
+              "RelativeToolTip": "Controllers\\DetalleFacturasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:25.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BodegaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\BodegaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BodegaController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\BodegaController.cs",
+              "RelativeToolTip": "Controllers\\BodegaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:18.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Model7.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx",
+              "RelativeDocumentMoniker": "Models\\Model7.edmx",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model7.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-07T20:22:27.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "Controllers\\ManageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:35:53.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Persona\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Create.cshtml",
+              "RelativeToolTip": "Views\\Persona\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T19:29:04.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Create.cshtml",
-              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Create.cshtml",
               "RelativeToolTip": "Views\\Rol\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -46,11 +394,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Delete.cshtml",
               "RelativeToolTip": "Views\\Rol\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -58,11 +406,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Details.cshtml",
-              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Details.cshtml",
               "RelativeToolTip": "Views\\Rol\\Details.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -70,28 +418,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Edit.cshtml",
               "RelativeToolTip": "Views\\Rol\\Edit.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-06T21:47:12.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Rol\\Index.cshtml",
-              "ToolTip": "C:\\Users\\GORIL\\Documents\\Proyecto\\CompanyJLSV7\\Views\\Rol\\Index.cshtml",
-              "RelativeToolTip": "Views\\Rol\\Index.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:46:42.307Z",
-              "EditorCaption": ""
             }
           ]
         }

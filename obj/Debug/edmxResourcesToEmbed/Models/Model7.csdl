@@ -19,7 +19,7 @@
     <Property Name="Codigo" Type="Int32" Nullable="false" />
     <Property Name="Cantidad" Type="Int32" Nullable="false" />
     <Property Name="Valor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Codigoplato" Type="Int32" Nullable="false" />
+    <Property Name="Codigoplato" Type="Int32" />
     <NavigationProperty Name="Plato" Relationship="Self.FK_DetalleFactura_Plato" FromRole="DetalleFactura" ToRole="Plato" />
     <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_DetalleFactura" FromRole="DetalleFactura" ToRole="Facturas" />
   </EntityType>
@@ -39,9 +39,9 @@
     </Key>
     <Property Name="Facturas1" Type="Int32" Nullable="false" />
     <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="Codigo" Type="Int32" Nullable="false" />
-    <Property Name="Numeropago" Type="Int32" Nullable="false" />
-    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="Codigo" Type="Int32" />
+    <Property Name="Numeropago" Type="Int32" />
+    <Property Name="idProducto" Type="Int32" />
     <NavigationProperty Name="Bodega" Relationship="Self.FK_Facturas_Bodega" FromRole="Facturas" ToRole="Bodega" />
     <NavigationProperty Name="DetalleFactura" Relationship="Self.FK_Facturas_DetalleFactura" FromRole="Facturas" ToRole="DetalleFactura" />
     <NavigationProperty Name="Formapago" Relationship="Self.FK_Facturas_Formapago" FromRole="Facturas" ToRole="Formapago" />
@@ -54,7 +54,7 @@
     <Property Name="Numeropago" Type="Int32" Nullable="false" />
     <Property Name="Efectivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Tarjeta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Numerotarjeta" Type="Int32" Nullable="false" />
+    <Property Name="Numerotarjeta" Type="Int32" />
     <NavigationProperty Name="Detalletarjeta" Relationship="Self.FK_Formapago_Detalletarjeta" FromRole="Formapago" ToRole="Detalletarjeta" />
     <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_Formapago" FromRole="Formapago" ToRole="Facturas" />
   </EntityType>
@@ -70,8 +70,8 @@
     <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Tiporol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="idRol" Type="Int32" Nullable="false" />
-    <Property Name="Facturas" Type="Int32" Nullable="false" />
+    <Property Name="idRol" Type="Int32" />
+    <Property Name="Facturas" Type="Int32" />
     <NavigationProperty Name="Facturas1" Relationship="Self.FK_Persona_Facturas" FromRole="Persona" ToRole="Facturas" />
     <NavigationProperty Name="Rol" Relationship="Self.FK_Persona_Rol" FromRole="Persona" ToRole="Rol" />
   </EntityType>
@@ -105,7 +105,7 @@
     <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <Association Name="FK_Facturas_Bodega">
-    <End Role="Bodega" Type="Self.Bodega" Multiplicity="1" />
+    <End Role="Bodega" Type="Self.Bodega" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Bodega">
@@ -117,7 +117,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_DetalleFactura_Plato">
-    <End Role="Plato" Type="Self.Plato" Multiplicity="1" />
+    <End Role="Plato" Type="Self.Plato" Multiplicity="0..1" />
     <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Plato">
@@ -129,7 +129,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Facturas_DetalleFactura">
-    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="1" />
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="DetalleFactura">
@@ -141,7 +141,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Formapago_Detalletarjeta">
-    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="1" />
+    <End Role="Detalletarjeta" Type="Self.Detalletarjeta" Multiplicity="0..1" />
     <End Role="Formapago" Type="Self.Formapago" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Detalletarjeta">
@@ -153,7 +153,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Facturas_Formapago">
-    <End Role="Formapago" Type="Self.Formapago" Multiplicity="1" />
+    <End Role="Formapago" Type="Self.Formapago" Multiplicity="0..1" />
     <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Formapago">
@@ -165,7 +165,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Persona_Facturas">
-    <End Role="Facturas" Type="Self.Facturas" Multiplicity="1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="0..1" />
     <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Facturas">
@@ -177,7 +177,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Persona_Rol">
-    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Rol" Type="Self.Rol" Multiplicity="0..1" />
     <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Rol">
@@ -188,7 +188,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="CompanyJLSAEntities2" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="CompanyJLSAEntities7" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Bodega" EntityType="Self.Bodega" />
     <EntitySet Name="DetalleFactura" EntityType="Self.DetalleFactura" />
     <EntitySet Name="Detalletarjeta" EntityType="Self.Detalletarjeta" />

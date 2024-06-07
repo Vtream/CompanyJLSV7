@@ -12,7 +12,7 @@ namespace CompanyJLSV7.Controllers
 {
     public class DetalleFacturasController : Controller
     {
-        private CompanyJLSAEntities db = new CompanyJLSAEntities();
+        private CompanyJLSAEntities7 db = new CompanyJLSAEntities7();
 
         // GET: DetalleFacturas
         public ActionResult Index()

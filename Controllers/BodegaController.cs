@@ -12,7 +12,7 @@ namespace CompanyJLSV7.Controllers
 {
     public class BodegaController : Controller
     {
-        private CompanyJLSAEntities db = new CompanyJLSAEntities();
+        private CompanyJLSAEntities7 db = new CompanyJLSAEntities7();
 
         // GET: Bodega
         public ActionResult Index()

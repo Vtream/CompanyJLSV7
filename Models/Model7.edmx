@@ -411,7 +411,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="CompanyJLSAEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="CompanyJLSAEntities7" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Bodega" EntityType="Self.Bodega" />
           <EntitySet Name="DetalleFactura" EntityType="Self.DetalleFactura" />
           <EntitySet Name="Detalletarjeta" EntityType="Self.Detalletarjeta" />
@@ -455,7 +455,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="CompanyJLSAModelStoreContainer" CdmEntityContainer="CompanyJLSAEntities">
+        <EntityContainerMapping StorageEntityContainer="CompanyJLSAModelStoreContainer" CdmEntityContainer="CompanyJLSAEntities7">
           <EntitySetMapping Name="Bodega">
             <EntityTypeMapping TypeName="CompanyJLSAModel.Bodega">
               <MappingFragment StoreEntitySet="Bodega">

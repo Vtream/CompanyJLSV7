@@ -188,7 +188,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="CompanyJLSAEntities2" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="CompanyJLSAEntities3" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Bodega" EntityType="Self.Bodega" />
     <EntitySet Name="DetalleFactura" EntityType="Self.DetalleFactura" />
     <EntitySet Name="Detalletarjeta" EntityType="Self.Detalletarjeta" />

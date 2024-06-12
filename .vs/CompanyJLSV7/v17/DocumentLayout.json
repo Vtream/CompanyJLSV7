@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\aprendiz\\desktop\\companyjslv7\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|c:\\users\\aprendiz\\desktop\\companyjslv7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\detallefacturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\detallefacturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\models\\sysdiagrams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\sysdiagrams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\views\\detalletarjeta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -79,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:models\\model7.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34EDE4C3-F197-42A4-9378-DE9F2493497E}|CompanyJLSV7.csproj|solutionrelative:controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,23 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T19:43:51.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Facturas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Facturas\\Index.cshtml",
@@ -138,12 +130,11 @@
               "RelativeToolTip": "Views\\Facturas\\Index.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T20:32:05.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T20:32:05.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Detalletarjeta\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Detalletarjeta\\Index.cshtml",
@@ -155,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Plato\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Plato\\Index.cshtml",
@@ -167,19 +158,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\DetalleFacturas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\DetalleFacturas\\Index.cshtml",
               "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\DetalleFacturas\\Index.cshtml",
               "RelativeToolTip": "Views\\DetalleFacturas\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-07T20:32:18.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Bodega\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Bodega\\Index.cshtml",
@@ -191,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Index.cshtml",
@@ -203,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Index.cshtml",
@@ -215,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Formapago\\Index.cshtml",
@@ -227,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -239,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Formapago\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Formapago\\Edit.cshtml",
@@ -251,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
@@ -263,7 +254,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "Model7.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx",
+              "RelativeDocumentMoniker": "Models\\Model7.edmx",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model7.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-07T20:22:27.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T19:43:51.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sysdiagrams.cs",
+              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\sysdiagrams.cs",
+              "RelativeDocumentMoniker": "Models\\sysdiagrams.cs",
+              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\sysdiagrams.cs",
+              "RelativeToolTip": "Models\\sysdiagrams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:36:42.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "PlatoController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\PlatoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlatoController.cs",
@@ -275,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "Controllers\\RolController.cs",
@@ -287,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FormapagoController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FormapagoController.cs",
               "RelativeDocumentMoniker": "Controllers\\FormapagoController.cs",
@@ -299,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "FacturasController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\FacturasController.cs",
               "RelativeDocumentMoniker": "Controllers\\FacturasController.cs",
@@ -311,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DetalletarjetaController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalletarjetaController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetalletarjetaController.cs",
@@ -323,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "DetalleFacturasController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\DetalleFacturasController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetalleFacturasController.cs",
@@ -335,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "BodegaController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\BodegaController.cs",
               "RelativeDocumentMoniker": "Controllers\\BodegaController.cs",
@@ -347,18 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Model7.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx",
-              "RelativeDocumentMoniker": "Models\\Model7.edmx",
-              "ToolTip": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Models\\Model7.edmx [Diagram1]",
-              "RelativeToolTip": "Models\\Model7.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-06-07T20:22:27.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ManageController.cs",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Controllers\\ManageController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManageController.cs",
@@ -370,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Persona\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Persona\\Create.cshtml",
@@ -382,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Create.cshtml",
@@ -394,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Delete.cshtml",
@@ -406,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Details.cshtml",
@@ -418,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Aprendiz\\Desktop\\CompanyJSLV7\\Views\\Rol\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Rol\\Edit.cshtml",
